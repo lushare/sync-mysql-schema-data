@@ -31,7 +31,7 @@ func init() {
 		df()
 		fmt.Fprintln(os.Stderr, "")
 		fmt.Fprintln(os.Stderr, "mysql schema && data sync tools "+internal.Version)
-		fmt.Fprintln(os.Stderr, internal.AppURL+"\n")
+		fmt.Fprintln(os.Stderr, internal.AppURL)
 	}
 }
 
